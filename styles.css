@@ -1,7 +1,9 @@
 body {
     display: flex;
     flex-direction: column;
-    padding: 0;
+    padding: 0px;
+    background-color: orange;
+    margin: 0px;
 }
 
 .header {
