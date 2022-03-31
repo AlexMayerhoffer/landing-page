@@ -7,7 +7,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.header, .welcome {
+.header, .welcome{
     color: #f9faf8;
 }
 
@@ -51,8 +51,9 @@ body {
     width: 400px;
     height: auto;
     border-radius: 20px;
-    border: 6px solid #161d25;
+    border: 10px solid #161d25;
     align-self:center;
+    min-width: 300px;
 }
 
 .welcome-information {
@@ -64,7 +65,7 @@ body {
 }
 
 .welcome-information h1 {
-    font-size: 30px;
+    font-size: 36px;
     margin: 0px;
     font-weight: bold;
     white-space: nowrap;
@@ -86,4 +87,39 @@ body {
     border-radius: 20px;
     border: 3px solid #161d25;
     color: #161d25;
+}
+
+.members {
+    text-align: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1%;
+    gap: 1vh;
+    color: #1f2937;
+}
+
+.members h2 {
+    font-size: 36px;
+}
+
+.container-members {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.container-members img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #3882f6;
+}
+
+.member {
+    font-weight: bold;
+    min-width: 300px;
+    font-size: 30px;
 }
