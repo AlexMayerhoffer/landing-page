@@ -14,7 +14,7 @@ body {
 .header {
     background-color: #161d25;
     display: flex;
-    padding: 1% 15%;
+    padding: 1vh 15vh;
     align-items: center;
     justify-content: center;
     gap: 50%;
@@ -41,7 +41,7 @@ body {
 .welcome {
     background-color: #1f2937;
     display: flex;
-    padding: 2% 5%;
+    padding: 3vh 7vh;
     justify-content: center;
     gap: 5%;
     flex-wrap: wrap;
@@ -122,4 +122,32 @@ body {
     font-weight: bold;
     min-width: 300px;
     font-size: 30px;
+}
+
+.quote {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3vh 0px;
+}
+
+.quote-square {
+    background-color: #e5e7eb;
+    max-width: 80%;
+    padding: 0.5% 5%;
+}
+
+.quote-square p {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+#quote-author {
+    color: #1f2937;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: end;
 }
